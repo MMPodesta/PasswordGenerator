@@ -11,11 +11,11 @@ public class Main {
 
         //Get user input
         System.out.println("Welcome to password generator");
-        System.out.println("Specify the number of characters:");
+        System.out.print("Specify the number of characters:");
         int characterNum = sc.nextInt();
 
         //Display New generated password
-        System.out.println("Your new password it: " + ps.GeneratePassword(characterNum));
+        System.out.println("Your new password is: " + ps.GeneratePassword(characterNum));
 
 
 
